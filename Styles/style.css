@@ -1,0 +1,692 @@
+body{
+    margin: 0%;
+    font-family: Arial;
+}
+
+header{
+    display: flex;
+    background-color: #1e172f;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.main a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #8d8a8a;
+    font-weight: 600;
+}
+
+#white{
+    color: white;
+}
+
+.Download{
+    background: linear-gradient(to right, #8e2de2, #137cdf);
+    border: none;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.part-1{
+    display: flex;
+}
+.product-page{
+    background-color: #1e172f;
+    width: 45vw;
+    padding: 50px 0  0 250px ;
+}
+
+.product-page h2{
+    color: white;
+    font-size: 50px;
+    text-transform:capitalize;
+}
+.product-page p{
+    color: white;
+    font-size: 19px;
+}
+
+.buttons{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    width: auto;
+    display: inline-block;
+}
+
+.down-it-now{
+    background: white;
+    border: 2px solid white; 
+    background: linear-gradient(to right, #e8c5f8, #bb10b2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.down-it-now-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.features{
+    border: 1px solid white;
+    background-color: #1e172f;
+    color: white;
+    padding: 14px 22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.imagee{
+    background-image: url(../Assets/images/hojasFondo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+}
+.imagee img {
+    width: 200px;
+    padding: 0px 10px 60px;
+    margin: 50px 0 0 120px;
+}
+
+.part-2 h2{
+    color:#bb10b2;
+    text-align: center;
+    font-size: 50px;
+}
+
+.part-2 .Fonctionnalités{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    font-family: Arial;
+}
+.part-2 .Fonctionnalités img{
+    width: 50vw;
+    padding-right: 30px;
+}
+
+.part-2 .Fonctionnalités .info-2{
+    width: 35vw;
+}
+
+.part-2 .Fonctionnalités .info-2 h3{
+    font-size: 40px;
+    font-weight: 200;
+    color: #bb10b2;
+    margin: 0;
+}
+
+.marketing{
+    color: #bb10b2;
+    font-size: 25px;
+    display: flex;
+}
+
+.guion{
+    display: flex;
+    width: 80px;
+    justify-content: center ;
+    align-self: center;
+}
+
+
+.check-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin: 10px;
+}
+
+.box-1{
+    display: flex;
+}
+
+.part-3{
+    background-color: #1e172f;
+    height: max-content;
+    padding: 0 0 50px 0;
+}
+
+.cabeza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    padding: 50px;
+    color: white;
+}
+
+.cabeza h2{
+    font-size: 33px;
+}
+
+.targets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shops{
+    width: 400px;
+    background-color: #f9fafb;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.lite{
+    color: #8e2de2;
+    font-size: 20px;
+    margin: 0%;
+}
+
+.Standard{
+    font-size: 20px;
+    margin: 0%;
+}
+
+.subs{
+    display: flex;
+    color: #1e172f;
+    background-color: #eaeff4;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 5px 0;
+}
+
+.signo{
+    font-size: 25px;
+    padding: 12px 0px;
+    margin: 0%;
+}
+.total{
+    font-size: 30px;
+    padding: 10px;
+    margin: 0%;
+}
+
+.tipo-compra{
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 0%;
+}
+
+.tipo-compra-1{
+    font-size: 15px;
+    padding: 10px 0;
+    margin: 0%;
+}
+
+.line-one{
+    display: flex;
+    align-items: center;
+}
+
+.line-two{
+    display: flex;
+    align-items: center;
+}
+
+.line-two svg{
+    padding-right: 20px;
+}
+
+.line-one svg{
+    fill: #8e2de2;
+    padding-right: 20px;
+}
+
+.x{
+    display: flex;
+    align-items: center;
+}
+
+.x svg{
+    padding-right: 20px;
+}
+
+.desc{
+    text-align: center;
+    padding: 15px;
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sisabe{
+    background-color: #d7e1eb;
+    width:100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+}
+
+.abc{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(to right, #fb88f0,  #f10392);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cba{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #1e172f;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.text{
+    display: flex;
+    padding: 0 10px;
+}
+
+.rosa{
+    color: #8e2de2;
+    padding-right: 10px;
+}
+
+
+.twitter{
+    padding: 0 10px;
+}
+
+.linkedin{
+    padding: 0 10px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: 0;
+        font-size: 14px;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .main {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .main a {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    
+    .Download {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    
+    .product-page {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .product-page h2 {
+        font-size: 30px;
+    }
+    
+    .product-page p {
+        font-size: 16px;
+    }
+    
+    .imagee {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .imagee img {
+        width: 80%;
+        margin: 20px 0;
+    }
+    
+    .part-2 .Fonctionnalités {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .part-2 .Fonctionnalités img {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .part-2 .Fonctionnalités .info-2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .part-2 .Fonctionnalités .info-2 h3 {
+        font-size: 28px;
+    }
+    
+    .part-3 {
+        padding: 20px;
+    }
+    
+    .cabeza h2 {
+        font-size: 25px;
+    }
+    
+    .targets {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .shops {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .subs {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .signo, .total, .tipo-compra, .tipo-compra-1 {
+        font-size: 16px;
+    }
+    
+    .beneficios .line-one, .beneficios .line-two {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .sisabe {
+        text-align: center;
+    }
+    
+    .abc, .cba {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .text {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+ 
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main a {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .Download {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .product-page {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .product-page h2 {
+        font-size: 36px;
+    }
+
+    .product-page p {
+        font-size: 16px;
+    }
+
+    .imagee {
+        width: 100%;
+        background-position: top;
+    }
+
+    .imagee img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .part-2 .Fonctionnalités {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .part-2 .Fonctionnalités img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .part-2 .Fonctionnalités .info-2 {
+        width: 100%;
+    }
+
+    .part-2 .Fonctionnalités .info-2 h3 {
+        font-size: 30px;
+    }
+
+    .shops {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .shops img {
+        width: 80%;
+    }
+
+    .subs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beneficios {
+        text-align: center;
+    }
+
+    .line-one, .line-two {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .x {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .text {
+        flex-direction: column;
+    }
+}
+@media (max-width: 920px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .product-page {
+        width: 100%;
+        padding: 50px 20px;
+        margin: 0 auto;
+    }
+
+    .product-page h2 {
+        font-size: 40px;
+    }
+
+    .product-page p {
+        font-size: 16px;
+    }
+
+    .imagee {
+        width: 100%;
+        background-position: center;
+    }
+
+    .imagee img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .part-2 .Fonctionnalités {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .part-2 .Fonctionnalités img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .part-2 .Fonctionnalités .info-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .part-3 {
+        padding: 20px;
+    }
+
+    .targets {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shops {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .line-one, .line-two {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .desc {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+@media (max-width: 1279px) {
+    .product-page {
+        width: 70vw;
+        padding: 50px 0 0 20px;
+    }
+
+    .imagee {
+        width: 70vw;
+    }
+
+    .part-2 .Fonctionnalités img {
+        width: 70vw;
+        padding-right: 10px;
+    }
+
+    .part-2 .Fonctionnalités .info-2 {
+        width: 60vw;
+    }
+
+    .part-2 h2 {
+        font-size: 40px;
+    }
+
+    .cabeza h2 {
+        font-size: 28px;
+    }
+
+    .targets {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shops {
+        width: 90%;
+    }
+
+    .line-one, .line-two {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .x {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+    .subs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .total {
+        font-size: 24px;
+    }
+}
